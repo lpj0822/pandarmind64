@@ -1,0 +1,15 @@
+uint8 minor_version
+uint8 major_version
+uint32 timestamp_begin
+uint8[6] utc_begin
+uint32 timestamp_end
+uint8[6] utc_end
+uint8 return_code
+uint8 info_type
+uint32 data_length
+uint8 packet_total_count
+uint8 packet_count
+float32 detection_center_x
+float32 detection_center_y
+float32[12] translation_matrix
+Algoobjs[] objs

@@ -1,0 +1,13 @@
+uint32 id
+uint64 timestamp
+float32[4] pos_quat
+float32[3] lwh
+float32[3] center
+float32[3] relative_velocity
+float32[3] absolute_velocity
+float32[3] acceleration
+float32[9] location_cov
+float32[9] velocity_cov
+float32[9] acceleration_cov
+uint8 tracking_confidence
+uint8 is_detection

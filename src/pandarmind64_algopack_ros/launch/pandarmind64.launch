@@ -1,0 +1,7 @@
+<launch>
+        <arg name="port" default="2355"/>
+
+	<node pkg="pandarmind64_algopack_ros" name="algopack" type="pandarmind64_algopack_ros_node" output="screen" >
+		<param name="port"  type="int" value="$(arg port)"/>
+	</node>
+</launch>
